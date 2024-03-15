@@ -1,0 +1,9 @@
+# Filled for example
+postgres:
+  host: localhost
+  database: your_database_name
+  port: 5432
+  user: your_username
+  password: your_password # passward should taken from taken without showing
+
+

@@ -1,0 +1,13 @@
+#TODO add kafka airflow postgres
+
+version: "3.3"
+services:
+
+  jupyter:
+    image: jupyter/pyspark-notebook:spark-3.4.0
+    ports:
+      - 8888:8888
+      - 4040:4040
+    volumes:
+      - ./notebooks:/home/jovyan/notebooks
+      - ./datasets:/home/jovyan/datasets

@@ -1,0 +1,2 @@
+direction: home/user/rate_sample.csv
+target_table: sandbox.rate_main
