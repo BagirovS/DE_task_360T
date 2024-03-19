@@ -1,2 +1,7 @@
 direction: home/user/rate_sample.csv
-target_table: sandbox.rate_main
+stg_tables:
+  - sandbox.tmp_rate
+  - sandbox.stg_rate
+target_tables: sandbox.raw_rate
+flow_table: sandbox.flow_rate
+

@@ -1,5 +1,0 @@
-Step which you need
-1. add some test maybe
-2. try except
-3. research airflow
-4. research streaming decision
